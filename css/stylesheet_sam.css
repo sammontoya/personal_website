@@ -1,0 +1,223 @@
+/*navigation*/
+.navbar-custom {
+  background-color: transparent;
+  border: none;
+  /*color: white;*/
+  margin-top: 0;
+  position: fixed;
+  width: 100%;
+  /*z-index: 1200;*/
+}
+.navbar-custom a {
+    color: #fff;
+}
+
+/*landing pic and info*/
+.header {
+  background-image: url("img/manatee_me.jpg");
+  background-position: center;
+  background-repeat: none;
+  background-size: cover;
+  height: 100vh;
+  min-height: 500px;
+  width: 100%;
+}
+.center_info{
+  color: white;
+  text-align: center;
+}
+
+.name {
+  margin-top: 240px;  
+}
+.big_scroll{
+  float: right;
+  margin-right: 45%;
+}
+.big_scroll:hover{
+  color: dimgray;
+}
+/* About Me section*/
+#about {
+  height: 100vh;
+  
+}
+.about_title_text{
+  color: dimgray;
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-top: 85px;
+}
+.about_me_text{
+  font-size: 16px;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+#iceland_image{
+  background-image: url("img/iceland.jpg");
+}
+#franklin_image{ 
+ background-image: url("img/franklin.jpg")
+  
+}
+#turtle_image{
+  background-image: url("img/turtle_sam.jpg");
+}
+.about_me_images{
+  margin-left: 3%;
+  margin-right: 3%;
+}
+.about_image{
+  background-position: center;
+  background-repeat: none;
+  background-size: cover;
+  margin: 10px 5px 10px 5px;
+  max-height: 20vh;
+  min-height: 250px;
+  width: 30%;
+}
+
+.about_me_sm_icon {
+  display: inline;
+  list-style: none;
+}
+.about_me_sm_icon i{
+color:dimgray;
+}
+.about_me_sm_icon i:hover{
+  color:#444;
+
+}
+
+/*general css for each section (minus about me)*/
+.title_image {
+  background-position: bottom;
+  height: 50vh;
+  min-height: 250px;
+  width: 100%;   
+}
+.info_block {
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+.title_text {
+  color: white;
+  text-align: center;
+  margin-top:100px;
+  float:left;
+  margin-left: 47%;
+}
+/* Skills Section */
+#skillsimage{
+  background-image: url("img/puzzle.jpg"); 
+}
+.my_skills{
+  min-height: 50vh;
+}
+.skilllist {
+  list-style-type: none;
+  margin-left: -37px;
+  color:dimgray;
+}
+.skill-box {
+  text-align: center;
+}
+/* Work/Portfolio Section */
+#workimage{
+  background-image: url("img/deskspace2.jpeg");
+}
+#work{
+  min-height: 50vh;
+}
+.project{
+  background-color: dimgray;
+  border: 3.5px solid white;
+  padding-top: 20px;
+  border-radius: 25px;
+}
+.project-description {
+  text-align: right;
+}
+.project-image-box{
+  height: 150px;
+  width: 250px;
+  text-align: center;
+}
+#high_low{
+  background-image: url("img/hilogame.jpg");
+  background-size:cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 30px;
+  margin-left: 10px;
+  border-radius: 15px;
+}
+/*Contact me section*/
+.contact_area_gray{
+  background-color: dimgray;
+  padding-top: 55px;
+}
+.contact_area {
+  /*background-color: dimgray;
+  height: 100vh;
+  padding-top: 55px;*/
+  /*position: relative;*/
+}
+.contact_me_title_text{
+  color: white;
+}
+.contact_form{
+}
+.form_field{
+  list-style: none;
+  margin-left: 10%;
+}
+.email_message textarea {
+  border-radius: 5px;
+  height: 35vh;
+  margin: 5px;
+  padding: 5px;
+  /*min-height: 200px;*/
+  width: 80%;
+  /*min-width: 400px*/
+}
+.user_info_input input {
+  border-radius: 5px;
+  margin: 5px;
+  padding: 5px;
+  /*max-width: 500px;*/
+  width: 80%;
+}
+.btn input {
+  border-radius: 5px;
+}
+img.contact_me_image{
+  border-radius: 50%;
+  height: 200px;
+  width: auto; 
+
+}
+.contact_me_sm_icon{
+  color: black;   
+  display: inline;
+  list-style: none;
+}
+/*.bottom_bottom_right{
+  position:absolute;
+  right:0;
+  bottom:0;
+}*/
+
+/*------------------------------------------*/
+#blue{
+  height: 200px;
+  width: 200px;
+  background-color: blue;
+}
+.red{
+  background-color: red;
+}
+
+.brown{
+  background-color: brown;
+}
