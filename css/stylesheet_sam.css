@@ -1,3 +1,9 @@
+body{
+  font-family: 'Lato', sans-serif;
+}
+h1, h2, h3{
+  font-family: 'Oswald', sans-serif;
+}
 /*navigation*/
 .navbar-custom {
   background-color: transparent;
@@ -12,6 +18,10 @@
     color: #fff;
 }
 
+.navbar-custom a:hover{
+  background-color: dimgray;
+}
+
 /*landing pic and info*/
 .header {
   background-image: url("img/manatee_me.jpg");
@@ -22,24 +32,26 @@
   min-height: 500px;
   width: 100%;
 }
-.center_info{
+/*.center_info{
   color: white;
   text-align: center;
-}
+}*/
 
 .name {
-  margin-top: 240px;  
+  color: white;
+  margin-top: 240px; 
+  text-align: center;
+   
 }
 .big_scroll{
-  float: right;
-  margin-right: 45%;
+  color: white;
 }
 .big_scroll:hover{
   color: dimgray;
 }
 /* About Me section*/
 #about {
-  height: 100vh;
+  min-height: 100vh;
   
 }
 .about_title_text{
@@ -83,10 +95,13 @@
 }
 .about_me_sm_icon i{
 color:dimgray;
+margin: 20px;
 }
 .about_me_sm_icon i:hover{
   color:#444;
-
+}
+.about_me_sm_icons{
+  text-align: center;
 }
 
 /*general css for each section (minus about me)*/
@@ -129,6 +144,12 @@ color:dimgray;
 #work{
   min-height: 50vh;
 }
+.temporary_placeholder{
+  font-size: 4em;
+  margin-bottom: 55px;
+  margin-top: 55px;
+  text-align: center;
+}
 .project{
   background-color: dimgray;
   border: 3.5px solid white;
@@ -155,7 +176,9 @@ color:dimgray;
 /*Contact me section*/
 .contact_area_gray{
   background-color: dimgray;
+  min-height: 100vh;
   padding-top: 55px;
+  
 }
 .contact_area {
   /*background-color: dimgray;
@@ -197,11 +220,24 @@ img.contact_me_image{
   width: auto; 
 
 }
-.contact_me_sm_icon{
+.contact_me_sm_icons{
   color: black;   
-  display: inline;
   list-style: none;
 }
+.contact_me_sm_icon{
+  display: inline;
+  margin: 20px;
+}
+
+.contact_me_social_media_link i{
+  color: black;  
+}
+
+.contact_me_social_media_link i:hover{
+  color: white;  
+}
+
+
 /*.bottom_bottom_right{
   position:absolute;
   right:0;
