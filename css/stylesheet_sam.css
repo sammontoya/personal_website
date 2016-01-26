@@ -228,7 +228,10 @@ img.contact_me_image{
   display: inline;
   margin: 20px;
 }
-
+.contact_me_email{
+  margin-bottom: 15px;
+  font-size: 1.25em;
+}
 .contact_me_social_media_link i{
   color: black;  
 }
@@ -236,13 +239,15 @@ img.contact_me_image{
 .contact_me_social_media_link i:hover{
   color: white;  
 }
+.bottom_bottom_right{
+  /*background-color: dimgray;*/
+  
+}
 
-
-/*.bottom_bottom_right{
-  position:absolute;
-  right:0;
-  bottom:0;
-}*/
+.bottom_bottom_right img{
+  float: right;
+  margin-right: 25px;
+}
 
 /*------------------------------------------*/
 #blue{
