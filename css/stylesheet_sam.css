@@ -50,9 +50,8 @@ h1, h2, h3{
   color: dimgray;
 }
 /* About Me section*/
-#about {
-  min-height: 100vh;
-  
+.about_me_main {
+  min-height: 100vh;  
 }
 .about_title_text{
   color: dimgray;
@@ -188,12 +187,16 @@ margin: 20px;
 }
 .contact_me_title_text{
   color: white;
+  margin-left: 3%;
+  margin-right: 3%;
+  padding-top: 55px;
 }
-.contact_form{
+.contact{
+  
 }
 .form_field{
   list-style: none;
-  margin-left: 10%;
+  /*margin-left: 10%;*/
 }
 .email_message textarea {
   border-radius: 5px;
